@@ -6,8 +6,16 @@ $color_EM: rgb(111, 120, 174);
 
 
 header {
-background-color:$background_color_fond;
+background-color:$background_color_fondlight;
 }
-class="accueil-introduction" {
+.nav {
+  img{
     
+  }
 }
+ 
+.accueil-introduction {
+    a:hover {
+            background-color: rgb(255, 255, 255);
+          } 
+        }
