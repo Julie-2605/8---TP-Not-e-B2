@@ -3,6 +3,8 @@ $background_color_fondlight: rgb(255, 255, 255);
 $color_titre: rgb(165, 180, 252);
 $color_boutton: rgb(166, 167, 227);
 $color_EM: rgb(111, 120, 174);
-$text-titre:$background_color_3;
 
-header 
+
+header {
+background-color:$background_color_fond;
+}
