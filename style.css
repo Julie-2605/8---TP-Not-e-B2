@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
   font-size: 80px;
   color: rgb(165, 180, 252);
+  font-weight: 100;
 }
 
 h2 {
@@ -15,8 +18,20 @@ h2 {
   margin: 7% auto;
 }
 
+em {
+  color: rgb(111, 120, 174);
+  font-style: normal;
+}
+
+.cta {
+  color: rgb(255, 255, 255);
+  background-color: rgb(165, 180, 252);
+  padding: 2% 5%;
+  border-radius: 20px;
+}
+
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(31, 32, 57);
   display: inline;
   width: 300px;
   box-sizing: border-box;
@@ -48,7 +63,7 @@ header nav .entete {
   color: rgb(255, 255, 255);
 }
 .accueil-introduction a {
-  background-color: rgb(255, 255, 255);
+  margin: 4% 0%;
 }
 .accueil-introduction img {
   flex-grow: 1;
