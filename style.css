@@ -1,5 +1,5 @@
 header {
-  background-color: rgb(239, 17, 17);
+  background-color: rgb(255, 255, 255);
   display: inline;
   width: 300px;
   box-sizing: border-box;
@@ -48,7 +48,7 @@ h2 {
 
 .section-contact {
   padding: 1%;
-  color: rgb(239, 17, 17);
+  color: rgb(255, 255, 255);
   background-color: rgb(31, 32, 57);
 }
 
@@ -62,8 +62,18 @@ h2 {
   flex-direction: row;
   justify-content: center;
 }
+.form-nom-email input {
+  margin: 0% 2%;
+  padding: 10px 94px;
+}
 
 .form-column {
   display: flex;
   flex-direction: column;
+}
+
+.message-contact {
+  flex-direction: column;
+  display: flex;
+  margin: 0% 30%;
 }/*# sourceMappingURL=style.css.map */
