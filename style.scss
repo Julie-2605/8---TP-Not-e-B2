@@ -6,16 +6,55 @@ $color_EM: rgb(111, 120, 174);
 
 
 header {
-background-color:$background_color_fondlight;
+    background-color: $background_color_fondlight;
 }
-.nav {
-  img{
-    
-  }
-}
- 
+
+
 .accueil-introduction {
-    a:hover {
-            background-color: rgb(255, 255, 255);
-          } 
-        }
+    a {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+h2 {
+    color: $color_titre;
+    text-align: center;
+    margin: 7% auto;
+}
+
+.accueil-photos {
+    width: 90%;
+    margin: 2%;
+}
+
+.accueil-photos div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accueil-photos div img {
+    margin: 0.5%;
+}
+
+.section-contact {
+    padding: 1%;
+    color: $background_color_fondlight;
+    background-color: $background_color_fond;
+}
+
+.section-contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-nom-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}

@@ -2,6 +2,49 @@ header {
   background-color: rgb(255, 255, 255);
 }
 
-.accueil-introduction a:hover {
+.accueil-introduction a {
   background-color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(165, 180, 252);
+  text-align: center;
+  margin: 7% auto;
+}
+
+.accueil-photos {
+  width: 90%;
+  margin: 2%;
+}
+
+.accueil-photos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accueil-photos div img {
+  margin: 0.5%;
+}
+
+.section-contact {
+  padding: 1%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(31, 32, 57);
+}
+
+.section-contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
