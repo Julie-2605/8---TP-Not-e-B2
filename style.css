@@ -132,12 +132,25 @@ textarea {
 .message-contact {
   flex-direction: column;
   display: flex;
-  margin: 0% 30% 1%;
+  margin: 0% 30% 2%;
 }
 
-footer {
+.portfolio-section-photos .paysages {
+  width: 90%;
+  margin: 2% 0%;
+}
+.portfolio-section-photos .paysages h2 {
+  color: rgb(31, 32, 57);
+}
+.portfolio-section-photos .paysages div {
   display: flex;
-  flex-direction: row;
-  padding: 2% 3%;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-section-photos .paysages img {
+  margin: 0.5%;
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

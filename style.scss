@@ -168,6 +168,36 @@ textarea {
 
 }
 
+//PORTFOLIO
+.portfolio-section-photos {
+
+.paysages {
+  width: 90%;
+margin: 2% 0%;
+
+
+  h2 {
+      color: $background_color_fond;
+  }
+}
+
+.paysages div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.paysages {
+  img {
+    margin: 0.5%;
+    width: 400px;
+    height:  400px;
+    object-fit: cover;
+  }
+}
+}
+
 //FOOTER
 footer {
     display: flex;
