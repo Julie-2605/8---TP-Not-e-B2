@@ -1,41 +1,21 @@
+//VARIABLES
 $background_color_fond: rgb(31, 32, 57);
 $background_color_fondlight: rgb(255, 255, 255);
 $color_titre: rgb(165, 180, 252);
 $color_boutton: rgb(166, 167, 227);
 $color_EM: rgb(111, 120, 174);
 
-
-header {
-background-color:$background_color_fondlight;
-display: inline;
-width: 300px;
-box-sizing: border-box;
-
-nav {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: aqua;
-
-  img{
-    margin: 7% 4%;
-
-  }
-  .entete {
-    display: flex;
-    width: 25%;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-
-  }
+//RESET
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
-}
- 
-.accueil-introduction {
-    a {
-        background-color: rgb(255, 255, 255);
-    }
+
+//POLICES
+h1 {
+    font-size: 80px;
+    color: $color_titre;
 }
 
 h2 {
@@ -44,6 +24,56 @@ h2 {
     margin: 7% auto;
 }
 
+//NAVBAR
+header {
+background-color:$background_color_fond;
+display: inline;
+width: 300px;
+box-sizing: border-box;
+
+nav {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $background_color_fondlight;
+  padding: 2% 5%;
+
+  .entete {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+
+  }
+}
+}
+
+//PAGE D'ACCUEIL
+//SECTION HERO
+.accueil-introduction {
+    display: flex;
+    padding: 3% 20%;
+    background-color: $background_color_fond;
+    
+    div {
+        flex-grow: 2;
+    }
+
+    p {
+        color: $color_fondlight;
+    }
+
+    a {
+        background-color: rgb(255, 255, 255);
+    }
+
+    img {
+        flex-grow: 1;
+    }
+}
+
+//GALERIE PHOTOS
 .accueil-photos {
     width: 90%;
     margin: 2%;
@@ -59,6 +89,7 @@ h2 {
     margin: 0.5%;
 }
 
+//SECTION CONTACT
 .section-contact {
     padding: 1%;
     color: $background_color_fondlight;
