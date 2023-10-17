@@ -7,7 +7,7 @@
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   color: rgb(165, 180, 252);
   font-weight: 100;
 }
@@ -26,8 +26,8 @@ em {
 .cta {
   color: rgb(255, 255, 255);
   background-color: rgb(165, 180, 252);
-  padding: 2% 5%;
-  border-radius: 20px;
+  padding: 3% 4%;
+  border-radius: 30px;
 }
 
 header {
@@ -61,9 +61,11 @@ header nav .entete {
 }
 .accueil-introduction p {
   color: rgb(255, 255, 255);
+  margin: 2% 30% 0% 0%;
 }
 .accueil-introduction a {
   margin: 4% 0%;
+  display: inline-block;
 }
 .accueil-introduction img {
   flex-grow: 1;
@@ -72,6 +74,9 @@ header nav .entete {
 .accueil-photos {
   width: 90%;
   margin: 2%;
+}
+.accueil-photos h2 {
+  color: rgb(31, 32, 57);
 }
 
 .accueil-photos div {
@@ -99,10 +104,11 @@ header nav .entete {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 5%;
 }
 .form-nom-email input {
   margin: 0% 2%;
-  padding: 10px 94px;
+  padding: 10px 110px;
 }
 
 .form-column {
@@ -110,8 +116,12 @@ header nav .entete {
   flex-direction: column;
 }
 
+textarea {
+  margin-bottom: 5%;
+}
+
 .message-contact {
   flex-direction: column;
   display: flex;
-  margin: 0% 30%;
+  margin: 0% 30% 2%;
 }/*# sourceMappingURL=style.css.map */

@@ -17,7 +17,7 @@ $font: 'Roboto', sans-serif;
 
 //POLICES
 h1 {
-    font-size: 80px;
+    font-size: 70px;
     color: $color_titre;
     font-weight: 100;
 }
@@ -37,8 +37,8 @@ em {
 @mixin button {
     color: $background_color_fondlight;
     background-color: rgb(165, 180, 252);
-    padding: 2% 5%;
-    border-radius: 20px;
+    padding: 3% 4%;
+    border-radius: 30px;
 }
 
 .cta {
@@ -83,12 +83,14 @@ nav {
 
     p {
         color: $background_color_fondlight;
+        margin: 2% 30% 0% 0%;
     }
 
     a {
         margin: 4% 0%;
+        display: inline-block;
     }
-    
+
     img {
         flex-grow: 1;
     }
@@ -98,6 +100,10 @@ nav {
 .accueil-photos {
     width: 90%;
     margin: 2%;
+
+    h2 {
+        color: $background_color_fond;
+    }
 }
 
 .accueil-photos div {
@@ -126,9 +132,11 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 5%;
+    
      input {
       margin: 0% 2%;
-      padding: 10px 94px; 
+      padding: 10px 110px; 
 }
 }
 
@@ -137,10 +145,14 @@ nav {
     flex-direction: column;
 }
 
+textarea {
+    margin-bottom: 5%;
+}
 
 .message-contact {
   flex-direction: column;
   display: flex; 
-  margin: 0% 30%;
+  margin: 0% 30% 2%;
 
 }
+
